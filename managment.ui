@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>managment</class>
+ <widget class="QDialog" name="managment">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1223</width>
+    <height>693</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Работа со списком</string>
+  </property>
+  <widget class="QPushButton" name="listPatient">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>280</y>
+     <width>551</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Показать список пациентов</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="delPatient">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>340</y>
+     <width>551</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Выписать пациента</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>230</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(0, 0, 0);
+font-size: 15px</string>
+   </property>
+   <property name="text">
+    <string>Управление</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addPatient">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>310</y>
+     <width>551</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Добавить пациента</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="openFilePatient">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>370</y>
+     <width>551</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Открыть файл-список пациентов</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fone">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>1221</width>
+     <height>671</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="resource.qrc">:/rec/img/home.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="foneTwo">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>220</y>
+     <width>571</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: rgb(255, 237, 246)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="backButton">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>400</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: rgb(85, 170, 127);
+color: rgb(0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>НА ГЛАВНУЮ</string>
+   </property>
+  </widget>
+  <zorder>fone</zorder>
+  <zorder>foneTwo</zorder>
+  <zorder>listPatient</zorder>
+  <zorder>delPatient</zorder>
+  <zorder>label</zorder>
+  <zorder>addPatient</zorder>
+  <zorder>openFilePatient</zorder>
+  <zorder>backButton</zorder>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

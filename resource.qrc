@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/rec">
+        <file>img/exit.png</file>
+        <file>img/home.png</file>
+        <file>img/infoClient.png</file>
+        <file>img/infoCreater.png</file>
+        <file>img/listPatient.png</file>
+        <file>img/login.png</file>
+        <file>img/tmpHome.png</file>
+    </qresource>
+</RCC>
